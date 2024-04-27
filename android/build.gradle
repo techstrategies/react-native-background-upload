@@ -10,7 +10,7 @@ buildscript {
         targetSdkVersion = 29
         minSdkVersion = 18
     }
-    ext.kotlinVersion = safeExtGet('kotlinVersion', '1.6.20')
+    ext.kotlinVersion = safeExtGet('kotlinVersion', '1.7.0')
     ext.detoxKotlinVersion = ext.kotlinVersion
 
     repositories {
